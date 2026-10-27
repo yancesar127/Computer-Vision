@@ -1,4 +1,4 @@
-import cv2
+import cv2 #para mostrar por pantalla un video
 capture=cv2.VideoCapture('video.mp4') #guardamos el video 
 while True: #aplicamos el while para leer por fragmentos el video
     isTrue, frame=capture.read() #se pasa a fragmentos 
